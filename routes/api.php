@@ -7,10 +7,6 @@ use App\Http\Controllers\Api\Auth\AuthController;
 use App\Http\Controllers\Api\User\TodoController;
 use App\Http\Controllers\Api\User\UserController;
 
-Route::get('cache', function() {
-    Artisan::call('optimize');
-});
-
 Route::group(['middleware' => 'api'], function() {
 
     Route::group(['prefix' => 'auth'], function() {
