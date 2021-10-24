@@ -1,9 +1,8 @@
 # My Todo App 📍
 
-## **Version 1.0.0**
+# About
 
-About
-A simple Todo Web App for exploring Restful API 🥴
+A simple Back-end Restful API for developing Todo Web App 🥴
 
 ## License & Copyright
 
